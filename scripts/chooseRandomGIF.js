@@ -1,3 +1,5 @@
+function chooseGIF() {
+
 // choosing a random number
 const number = Math.floor(Math.random() * 8);
 
@@ -29,4 +31,8 @@ switch(number) {
     break
   default:
     gif = "uh we have a problem";
+}
+  
+  document.write("Selected number: ${number}, Selected GIF: ${gif}");
+  
 }
