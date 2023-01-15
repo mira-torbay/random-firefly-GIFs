@@ -7,34 +7,34 @@ switch(number) {
     gif = "GIFs/jayne-hat.gif";
     break;
   case 1:
-    // code block
+    gif = "GIFs/mal-misbehave.gif";
     break;
   case 2:
-    // code block
+    gif = "GIFs/wash-dinosaurs.gif";
     break
   case 3:
-    // code block
+    gif = "GIFs/mal-bonnet.gif";
     break
   case 4:
-    // code block
+    gif = "GIFs/mal-turbulence.gif";
     break
   case 5:
-    // code block
+    gif = "GIFs/kaylee-umbrella.gif";
     break
   case 6:
-    // code block
+    gif = "GIFs/kaylee-inara.gif";
     break
   case 7:
-    // code block
+    gif = "GIFs/river-power.gif";
     break
   default:
-    // code block
+    gif = "uh we have a problem";
 }
 
 const badge = document.createElement("p");
 
 // Use the same styling as the publish information in an article's header
   badge.classList.add("color-secondary-text", "type--caption");
-  badge.textContent = `number selected: ${number}, corresponding GIF: ${}`;
+  badge.textContent = `number selected: ${number}, corresponding GIF: ${gif}`;
 
   (date ?? heading).insertAdjacentElement("afterend", badge);
