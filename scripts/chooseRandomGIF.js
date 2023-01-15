@@ -30,11 +30,3 @@ switch(number) {
   default:
     gif = "uh we have a problem";
 }
-
-const badge = document.createElement("p");
-
-// Use the same styling as the publish information in an article's header
-  badge.classList.add("color-secondary-text", "type--caption");
-  badge.textContent = `number selected: ${number}, corresponding GIF: ${gif}`;
-
-  (date ?? heading).insertAdjacentElement("afterend", badge);
