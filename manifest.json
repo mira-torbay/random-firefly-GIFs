@@ -9,7 +9,7 @@
     "32": "icons/fireflicon-32.png",
     "48": "icons/fireflicon-48.png",
     "128": "icons/fireflicon-128.png"
-  }
+  },
   
   "content_scripts": [
     {
