@@ -5,7 +5,7 @@
   "version": "1.0",
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "icons/fireflicon-32.jpeg"
+    "default_icon": "icons/fireflicon-16.jpeg"
   },
   
   "icons": {
